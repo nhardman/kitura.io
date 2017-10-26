@@ -18,12 +18,12 @@ redirect_from: "/starter/generator.html"
 
 ---
 
-**Kitura create** can create the [scaffolding](/{{ page.lang }}/starter/generator/core_concepts.html#scaffold) on which you build your application. It writes the boilerplate so you don't have to.
+**Kitura create** can generate the [scaffolding](/{{ page.lang }}/starter/generator/core_concepts.html#scaffold) on which you build your application. It writes the boilerplate so you don't have to.
 
 > ![warning] **kitura create** requires Swift 4
  
 > ![info] **kitura create** and **kitura init** are the commands to use to generate a scaffolded Kitura application that is ready to be customized by a developer. These commands are MacOS only.
-If you want to generate scaffolded Kitura applications for Linux, then you will need to use Yeoman to run the generation. The **yo swiftserver** command is the Linux equivalent of kitura create and **yo swiftserver --init** is the equivalent of kitura init. See [Installing](/{{ page.lang }}/starter/generator/installation.html) for how to install Yeoman on Linux.
+If you want to generate scaffolded Kitura applications for Linux, then you will need to install and use the Yeoman tool with its `yo` command to run the generation. The `yo swiftserver` command is the Linux equivalent of `kitura create` and `yo swiftserver --init` is the equivalent of `kitura init`.<br><br>See [Installing](/{{ page.lang }}/starter/generator/installation.html) for how to install Yeoman on Linux.
 
 ---
 
@@ -51,8 +51,6 @@ If you want to generate scaffolded Kitura applications for Linux, then you will 
 ### [Connecting to a local CouchDB database](/{{ page.lang }}/starter/generator/local_couchdb_tutorial.html)
 
 ### [Running in a Docker container](/{{ page.lang }}/starter/generator/docker_container_tutorial.html)
-
-### [Generation from an OpenAPI (swagger) document](/{{ page.lang }}/starter/generator/swagger_tutorial.html)
 ---
 
 ## Reference
