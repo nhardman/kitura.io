@@ -73,6 +73,11 @@ Generates an application, but does not build it.
 Disables creation of generator meta-data files (`.yo-rc.json` and `.swiftservergenerator-project`).
 Although, this means that you cannot run the generator again on your generated application.
 
+`--init`
+
+Generates a basic scaffolded application with default options into the current directory. The name
+parameter is ignored when using this option.
+
 **Interactive prompts**
 
 The generator prompts you for the following information:
