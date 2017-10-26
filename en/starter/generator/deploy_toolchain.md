@@ -28,9 +28,9 @@ redirect_from: "/starter/generator/deply_toolchain.html"
 - Set up your [Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html) environment
 
 ---
-<span class="arrow">&#8227;</span> First, run the Swift Server generator (see [Command line tools](command_line_tools.html)):
+<span class="arrow">&#8227;</span> First, start the Kitura server generation (see [Command line tools](command_line_tools.html)):
 
-    $ yo swiftserver
+    $ kitura create
 
 ---
 <span class="arrow">&#8227;</span> Enter `swiftserver-deploy` as the application name.
@@ -62,20 +62,32 @@ redirect_from: "/starter/generator/deply_toolchain.html"
 ---
 <span class="arrow">&#8227;</span> Press **Enter** to accept the default [capabilities](core_concepts.html#capabilities) for the `Web` application pattern.
 
-    ? Select capabilities: (Press <space> to select)
+    ? Select capabilities: (Press <space> to select, <a> to toggle all, <i> to inverse selection)
     ❯ ◉ Static web file serving
-      ◯ OpenAPI / Swagger endpoint
-      ◯ Example endpoints
+      ◯ Swagger UI
       ◉ Embedded metrics dashboard
       ◉ Docker files
-      ◉ Bluemix cloud deployment
+
+---
+<span class="arrow">&#8227;</span> Press **Enter** to accept the default of not generating code from a [swagger](core_concepts.html#swagger) specification in the scaffolding.
+
+    ? Select endpoints to generate: (Press <space> to select, <a> to toggle all, <i> to inverse selection)
+    ❯ ◯ Swagger file serving endpoint
+      ◯ Endpoints from a swagger file
+
+---
+<span class="arrow">&#8227;</span> Press **Enter** to accept the default of not generating a Swift server SDK from a [swagger](core_concepts.html#swagger) file in the scaffolding.
+
+    ? Would you like to generate a Swift server SDK from a Swagger file? (y/N)
 
 ---
 <span class="arrow">&#8227;</span> Press **Enter** to accept the default of not including any boilerplate for [services](core_concepts.html#services) in the scaffolding.
 
-    ? Generate boilerplate for Bluemix services: (Press <space> to select)
-    ❯ ◯ Cloudant
+    ? Generate boilerplate for services: (Press <space> to select, <a> to toggle all, <i> to inverse selection)
+    ❯ ◯ Cloudant / CouchDB
       ◯ Redis
+      ◯ MongoDB
+      ◯ PostgreSQL
       ◯ Object Storage
       ◯ AppID
       ◯ Auto-scaling
