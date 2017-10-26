@@ -100,11 +100,9 @@ for the [capabilities prompt](#capabilities-prompt):
 
 ```
  ◯ Static web file serving
- ◯ OpenAPI / Swagger endpoint
- ◯ Example endpoints
+ ◯ Swagger UI
  ◉ Embedded metrics dashboard
  ◉ Docker files
- ◉ Bluemix cloud deployment
 ```
 
 ### Web pattern
@@ -114,11 +112,9 @@ for the [capabilities prompt](#capabilities-prompt):
 
 ```
  ◉ Static web file serving
- ◯ OpenAPI / Swagger endpoint
- ◯ Example endpoints
+ ◯ Swagger UI
  ◉ Embedded metrics dashboard
  ◉ Docker files
- ◉ Bluemix cloud deployment
 ```
 
 ### BFF pattern
@@ -129,11 +125,9 @@ for the [capabilities prompt](#capabilities-prompt):
 
 ```
  ◉ Static web file serving
- ◉ OpenAPI / Swagger endpoint
- ◉ Example endpoints
+ ◉ Swagger UI
  ◉ Embedded metrics dashboard
  ◉ Docker files
- ◉ Bluemix cloud deployment
 ```
 
 ## Capabilities prompt
@@ -146,11 +140,9 @@ are available:
 ```
 ? Select capabilities: (Press <space> to select)
 ❯ ◯ Static web file serving
-  ◯ OpenAPI / Swagger endpoint
-  ◯ Example endpoints
+  ◯ Swagger UI
   ◉ Embedded metrics dashboard
   ◉ Docker files
-  ◉ Bluemix cloud deployment
 ```
 
 For [CRUD project type](core_concepts.html#crud), the following capabilities
@@ -160,7 +152,6 @@ are available:
 ? Select capabilities: (Press <space> to select)
 ❯ ◉ Embedded metrics dashboard
   ◉ Docker files
-  ◉ Bluemix cloud deployment
 ```
 
 The list allows for toggling of any combination of the available capabilities which
@@ -183,9 +174,11 @@ If the [Bluemix capability](core_concepts.html#bluemix-capability) is enabled, t
 [Bluemix services](core_concepts.html#bluemix-services) are available:
 
 ```
-? Generate boilerplate for Bluemix services: (Press <space> to select)
-❯ ◯ Cloudant
+? Generate boilerplate for services: (Press <space> to select)
+❯ ◯ Cloudant / CouchDB
   ◯ Redis
+  ◯ MongoDB
+  ◯ PostgreSQL
   ◯ Object Storage
   ◯ AppID
   ◯ Auto-scaling

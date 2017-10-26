@@ -81,9 +81,11 @@ redirect_from: "/starter/generator/deploy_cloud_foundry.html"
 ---
 <span class="arrow">&#8227;</span> Press **Enter** to accept the default of not including any boilerplate for [services](core_concepts.html#services) in the scaffolding.
 
-    ? Generate boilerplate for Bluemix services: (Press <space> to select, <a> to toggle all, <i> to inverse selection)
+    ? Generate boilerplate for services: (Press <space> to select, <a> to toggle all, <i> to inverse selection)
     ❯ ◯ Cloudant
       ◯ Redis
+      ◯ MongoDB
+      ◯ PostgreSQL
       ◯ Object Storage
       ◯ AppID
       ◯ Auto-scaling
@@ -106,7 +108,7 @@ The generator will display messages as it scaffolds and builds the application i
 ---
 
 
-<span class="arrow">&#8227;</span> To push to `Bluemix` use the `Cloud Foundry` type the command `cf push` in the root of your project.
+<span class="arrow">&#8227;</span> To push to `IBM Cloud` use the `Cloud Foundry` type the command `cf push` in the root of your project.
 
 You will receive updates on the progress of the deploying of your app which will look something like this...
 

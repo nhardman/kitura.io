@@ -12,7 +12,7 @@ redirect_from: "/starter/generator/deply_toolchain.html"
 
 <div class="titleBlock">
 	<h1>Deploying to the Cloud with Create Toolchain</h1>
-	<p>Use the generator to create scaffolding for a simple Kitura web application, deploying to Bluemix and setting up your continuous delivery environment.	</p>
+	<p>Use the generator to create scaffolding for a simple Kitura web application, deploying to IBM Cloud and setting up your continuous delivery environment.	</p>
 </div>
 
 > ![warning] Make sure you have installed the command-line tools as described in
@@ -24,7 +24,7 @@ redirect_from: "/starter/generator/deply_toolchain.html"
 
 - Create a scaffolded Kitura application
 - Push to [GitHub](https://github.com/)
-- Deploy to Bluemix
+- Deploy to IBM Cloud
 - Set up your [Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html) environment
 
 ---
@@ -107,7 +107,7 @@ The generator will display messages as it scaffolds and builds the application i
 
 ---
 
-<span class="arrow">&#8227;</span> To deploy to `Bluemix` you will need to create a [GitHub repository](https://help.github.com/articles/creating-a-new-repository/) and push the project to your newly created repository.
+<span class="arrow">&#8227;</span> To deploy to `IBM Cloud` you will need to create a [GitHub repository](https://help.github.com/articles/creating-a-new-repository/) and push the project to your newly created repository.
 
 ---
 
@@ -115,11 +115,11 @@ The generator will display messages as it scaffolds and builds the application i
 
 ---
 
-<span class="arrow">&#8227;</span> Go to the `Deploy to Bluemix` section and click the "Create Toolchain" button that looks like this:
+<span class="arrow">&#8227;</span> Go to the `Deploy to IBM Cloud` section and click the "Create Toolchain" button that looks like this:
 
 ![Create Toolchain](https://console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)
 
-This will take you to the page to create a default toolchain in `Bluemix` and set up [Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html).
+This will take you to the page to create a default toolchain in `IBM Cloud` and set up [Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html).
 
 ---
 
