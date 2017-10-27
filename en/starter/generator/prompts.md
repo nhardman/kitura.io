@@ -14,11 +14,11 @@ redirect_from: "/starter/generator/prompts.html"
 	<h1>Prompt reference</h1>
 </div>
 
-The following sections describe the prompts provided by the [application generator](command_line_tools.html#application-generator).
+The following sections describe the prompts provided by the [application generator](../generator.html).
 
 ## Application name prompt
 If you did not supply an application name as an argument, the
-[application generator](command_line_tools.html#application-generator) will ask the name
+[application generator](../generator.html) will ask the name
 you would like to use for your application:
 
 ```
@@ -37,7 +37,7 @@ The application name you enter must satisfy the following constraints:
 * Must not be `favicon.ico`
 
 ## Application directory prompt
-The [application generator](command_line_tools.html#application-generator) will ask the name
+The [application generator](../generator.html) will ask the name
 of the directory you would like to use for your application:
 
 ```
@@ -58,7 +58,7 @@ The application directory you enter must satisfy the following constraints:
 
 ## Project type prompt
 
-The [application generator](command_line_tools.html#application-generator) will ask which type of project
+The [application generator](../generator.html) will ask which type of project
 you would like to create, offering two options:
 
 ```
@@ -79,7 +79,7 @@ customizable aside from modifying the data model.
 
 ## Application pattern prompt
 For [scaffolded applications](core_concepts.html#scaffold), the
-[application generator](command_line_tools.html#application-generator) will
+[application generator](../generator.html) will
 ask which application pattern you want to select, offering three options:
 
 ```
@@ -131,7 +131,7 @@ for the [capabilities prompt](#capabilities-prompt):
 ```
 
 ## Capabilities prompt
-The [application generator](command_line_tools.html#application-generator) will
+The [application generator](../generator.html) will
 ask which [capabilities](core_concepts.html#capabilities) you want to select.
 
 For [Scaffold project type](core_concepts.html#scaffold), the following capabilities
@@ -183,7 +183,7 @@ ask which [services](core_concepts.html#services) you want to select.
 
 ## CRUD store prompt
 For [CRUD applications](core_concepts.html#crud), the
-[application generator](command_line_tools.html#application-generator) will
+[application generator](../generator.html) will
 ask how you want to store entities:
 
 ```
@@ -201,7 +201,7 @@ memory-based database.
 Selecting `Cloudant / CouchDB` will add a local CouchDB service for entity storage.
 
 ## Service configuration prompt
-The [application generator](command_line_tools.html#application-generator) will
+The [application generator](../generator.html) will
 ask you which of the services you selected need to be configured, for example:
 
 ```

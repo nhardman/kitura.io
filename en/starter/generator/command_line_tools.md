@@ -33,7 +33,7 @@ This command generates a basic Kitura project including [`SwiftMetrics`](https:/
 
 ### `kitura create`
 
-This includes all of `kitura init` and generates an application based on your answers to a series of questions. Once all the questions have been answered, the project is created, written to the filesystem, and built using `swift build`.
+This command generates an application based on your answers to a series of questions. Once all the questions have been answered, the project is created, written to the filesystem, and built using `swift build`. If you select 'Basic' and answer all questions with default responses it will generate the same application as `kitura init`.
 
 ### `kitura create <modelname>`
 
