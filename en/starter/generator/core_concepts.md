@@ -140,25 +140,6 @@ To run the application:
 docker run -it -p 8080:8080 -v $PWD:/root/project -w /root/project myapp-run sh -c .build-ubuntu/release/<app_executable>
 ```
 
-### Bluemix capability
-This capability includes a set of Bluemix cloud deployment configuration files to support
-deploying your application to Bluemix:
-* `manifest.yml`
-* `.bluemix/toolchain.yml`
-* `.bluemix/pipeline.yml`
-
-The [`manifest.yml`](https://console.ng.bluemix.net/docs/manageapps/depapps.html#appmanifest) defines
-options which are passed to the Cloud Foundry `cf push` command during application deployment.
-
-[IBM Bluemix DevOps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html) service
-provides toolchains as a set of tool integrations that support development, deployment, and operations
-tasks inside Bluemix. The "Create Toolchain" button in the [README.md](project_layout_reference.html#readme)
-creates a DevOps toolchain and acts as a single-click deploy to Bluemix including provisioning all required
-services.
-
-> ![warning] You need to publish your project to a public github.com repository to use the "Create toolchain"
-> button.
-
 ## Endpoints
 ### Swagger fileserving endpoint capability
 This capability adds an endpoint to the application for serving the OpenAPI Swagger definition for this application. It expects the definition file to be located at `definitions/<app_name>.yaml`.
@@ -202,6 +183,24 @@ the [CRUD store prompt](prompts.html#crud-store-prompt).
 
 These services are hosted on IBM Cloud and the application can connect to them either locally
 or when deployed to IBM Cloud.
+
+When IBM Cloud services are selected, a set of deployment configuration files to support
+deploying your application to IBM Cloud are created:
+* `manifest.yml`
+* `.bluemix/toolchain.yml`
+* `.bluemix/pipeline.yml`
+
+The [`manifest.yml`](https://console.ng.bluemix.net/docs/manageapps/depapps.html#appmanifest) defines
+options which are passed to the Cloud Foundry `cf push` command during application deployment.
+
+[IBM Cloud DevOps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html) service
+provides toolchains as a set of tool integrations that support development, deployment, and operations
+tasks inside IBM Cloud. The "Create Toolchain" button in the [README.md](project_layout_reference.html#readme)
+creates a DevOps toolchain and acts as a single-click deploy to Bluemix including provisioning all required
+services.
+
+> ![warning] You need to publish your project to a public github.com repository to use the "Create toolchain"
+> button.
 
 #### Cloudant IBM Cloud service
 This service uses the [Kitura-CouchDB package](https://github.com/IBM-Swift/Kitura-CouchDB), which allows Kitura applications to interact with a Cloudant or CouchDB database.
