@@ -170,9 +170,6 @@ For [scaffolded applications](core_concepts.html#scaffold), the
 [application generator](command_line_tools.html#application-generator) will
 ask which [services](core_concepts.html#services) you want to select.
 
-If the [Bluemix capability](core_concepts.html#bluemix-capability) is enabled, the following
-[Bluemix services](core_concepts.html#bluemix-services) are available:
-
 ```
 ? Generate boilerplate for services: (Press <space> to select)
 ❯ ◯ Cloudant / CouchDB
@@ -182,15 +179,6 @@ If the [Bluemix capability](core_concepts.html#bluemix-capability) is enabled, t
   ◯ Object Storage
   ◯ AppID
   ◯ Auto-scaling
-```
-
-If the [Bluemix capability](core_concepts.html#bluemix-capability) is disabled, the following
-[Non-Bluemix services](core_concepts.html#non-bluemix-services) are available:
-
-```
-? Generate boilerplate for local services: (Press <space> to select)
-❯ ◯ CouchDB
-  ◯ Redis
 ```
 
 ## CRUD store prompt
