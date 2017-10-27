@@ -12,16 +12,11 @@ redirect_from: "/starter/generator.html"
 
 
 <div class="titleBlock">
-	<h1>Kitura create</h1>
-	<p>Jump-start development with application scaffolding.</p>
+	<h1>&gt; kitura create</h1>
+	<p>A tool to quickly develop server-side Swift applications</p>
 </div>
 
----
-
-**Kitura create** can generate the [scaffolding](/{{ page.lang }}/starter/generator/core_concepts.html#scaffold) on which you build your application. It writes the boilerplate so you don't have to.
-
-> ![info] **kitura create** and **kitura init** are the commands to use to generate a scaffolded Kitura application that is ready to be customized by a developer. These commands are MacOS only.
-If you want to generate scaffolded Kitura applications for Linux, then you will need to install and use the Yeoman tool with its `yo` command to run the generation. The `yo swiftserver` command is the Linux equivalent of `kitura create` and `yo swiftserver --init` is the equivalent of `kitura init`.<br><br>See [Installing](/{{ page.lang }}/starter/generator/installation.html) for how to install Yeoman on Linux.
+**&gt; kitura create** will generate a template on which you can build your server-side Swift application. It writes the boilerplate so you don't have to.
 
 ---
 
