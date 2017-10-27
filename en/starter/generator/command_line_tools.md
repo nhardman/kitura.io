@@ -12,9 +12,10 @@ redirect_from: "/starter/generator/command_line_tools.html"
 
 <div class="titleBlock">
 	<h1>Command-line tools</h1>
-	<p>This article summarizes Swift Server Generator CLI tool commands.</p>
+	<p>This article summarizes Kitura CLI tool commands for generating servers.</p>
 </div>
 
+For MacOS, the `kitura create` and `kitura init` are the commands provided to allow the generation of a kitura server.
 The generator is an [npm](https://www.npmjs.com) module using the [Yeoman](http://yeoman.io/)
 library. This means that the generator is a plugin that is executed using the `yo` command-line
 front-end to Yeoman. Use the [installation instructions](installation.html) to ensure the
