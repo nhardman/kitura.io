@@ -54,8 +54,6 @@ redirect_from: "/starter/generator.html"
 
 ### [Project layout reference](/{{ page.lang }}/starter/generator/project_layout_reference.html)
 
-### [config.json](/{{ page.lang }}/starter/generator/config_json.html)
-
 ### [Package.swift](/{{ page.lang }}/starter/generator/package_swift.html)
 
 ### [Exposing CRUD models over REST](/{{ page.lang }}/starter/generator/exposing_ssg_models_over_rest.html)
